@@ -3,22 +3,25 @@
     "product": "tuyuMail",
     "channel": "stable",
     "latest": {
-        "version": "1.8.3",
+        "version": "2.0.0",
         "published": true,
-        "release_date": "2026-09-29",
+        "release_date": "2026-09-30",
         "min_updater_version": null,
         "min_installed_version": null,
         "package": {
-            "url": "https://github.com/simba963/tuyuMail-releases/releases/download/v1.8.3/tuyumail-1.8.3.zip",
-            "sha256": "644aa2dcf04f91d4785331dfca0fa7845bdad53f5f7bda115a8556826983618a",
-            "size_bytes": 928018
+            "url": "https://github.com/simba963/tuyuMail-releases/releases/download/v2.0.0/tuyumail-2.0.0.zip",
+            "sha256": "c5f20fc9dd53163beddb8c4036b40ce9e1327fa92a4e575104ac7e6d82322d00",
+            "size_bytes": 1073934
         },
-        "release_notes_url": "https://raw.githubusercontent.com/simba963/tuyuMail-releases/main/releases/1.8.3/RELEASE_NOTES.md",
+        "release_notes_url": "https://raw.githubusercontent.com/simba963/tuyuMail-releases/main/releases/2.0.0/RELEASE_NOTES.md",
         "requires": {
             "php": "8.2",
             "extensions": [
                 "ctype",
                 "curl",
+                "dom",
+                "fileinfo",
+                "gd",
                 "json",
                 "mbstring",
                 "openssl",
@@ -28,7 +31,7 @@
         },
         "database": {
             "migrations_required": true,
-            "latest_migration": "2026_09_29_013_address_book.sql"
+            "latest_migration": "2026_09_30_015_auth_security.php"
         }
     }
 }
