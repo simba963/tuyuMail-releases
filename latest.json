@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "product": "tuyuMail",
+  "channel": "stable",
+  "latest": {
+    "version": "1.8.3",
+    "published": false,
+    "release_date": null,
+    "min_updater_version": null,
+    "min_installed_version": null,
+    "package": {
+      "url": null,
+      "sha256": null,
+      "size_bytes": null
+    },
+    "release_notes_url": null,
+    "requires": {
+      "php": "8.2",
+      "extensions": ["ctype", "curl", "json", "mbstring", "openssl", "pdo_mysql", "zip"]
+    },
+    "database": {
+      "migrations_required": true,
+      "latest_migration": "2026_09_29_013_address_book.sql"
+    }
+  }
+}
