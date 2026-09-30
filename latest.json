@@ -3,17 +3,17 @@
     "product": "tuyuMail",
     "channel": "stable",
     "latest": {
-        "version": "2.0.0",
+        "version": "2.0.1",
         "published": true,
         "release_date": "2026-09-30",
         "min_updater_version": null,
         "min_installed_version": null,
         "package": {
-            "url": "https://github.com/simba963/tuyuMail-releases/releases/download/v2.0.0/tuyumail-2.0.0.zip",
-            "sha256": "c5f20fc9dd53163beddb8c4036b40ce9e1327fa92a4e575104ac7e6d82322d00",
-            "size_bytes": 1073934
+            "url": "https://github.com/simba963/tuyuMail-releases/releases/download/v2.0.1/tuyumail-2.0.1.zip",
+            "sha256": "df37b626b39b7c1a3655de63501f2e8eadb1e67f41f72170de4b0bea9e1f94bd",
+            "size_bytes": 1074487
         },
-        "release_notes_url": "https://raw.githubusercontent.com/simba963/tuyuMail-releases/main/releases/2.0.0/RELEASE_NOTES.md",
+        "release_notes_url": "https://raw.githubusercontent.com/simba963/tuyuMail-releases/main/releases/2.0.1/RELEASE_NOTES.md",
         "requires": {
             "php": "8.2",
             "extensions": [
